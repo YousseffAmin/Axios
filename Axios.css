@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#progressBar {
+    height: 5px;
+    background-color: green;
+    width: 0%;
+    transition: width 0.4s ease;
+}
+
+#carousel {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 20px;
+}
+
+#carousel img {
+    height: 150px;
+    margin-right: 10px;
+}
+
+#infoDump {
+    margin-top: 20px;
+}
